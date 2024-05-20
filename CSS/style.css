@@ -10,6 +10,7 @@
 	}
 	body{
 		background-color: rgba(40,40,40,255);
+		background-image: url('../REFERENCES/marble.jpeg');
 	}
 	header{
 		padding: 10px 10VW 10px 10vw;   /* N E S W */
@@ -19,27 +20,43 @@
 	}
 
 	/* ============================================ */
+	::-webkit-scrollbar {
+		width: 5px;
+	}
+	::-webkit-scrollbar-thumb {
+		background: rgba(40,40,40,255);
+	}
+	
+	::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	}
+	
+	::-webkit-scrollbar-track {
+		background: rgba(0,0,0,255);
+	}
+	
+	/* ============================================ */
 
 	.box{
+		background-color: rgba(30,30,30,255);
 		border-radius: 15px;
 		margin: 30px;
 	}
 
 	.dark_grey{
-		background-color: rgba(50,50,50,255);
 		padding: 40px;
 	}
 	.mid_grey{
-		background-color: rgba(50,50,50,255);
 		padding: 20px;
-	}
-	.padding{
-		background-color: rgba(40,40,40,255);
-		padding: 20px;
-		height: 100px;
 	}
 
 	/* ============================================ */
+
+	.padding{
+		background-color: rgba(40,40,40,0);
+		padding: 20px;
+		height: 100px;
+	}
 
 	.override_center{
 		display: block;
