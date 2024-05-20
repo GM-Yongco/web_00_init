@@ -15,21 +15,40 @@
 		padding: 10vh 10VW 10px 10vw;   /* N E S W */
 	}
 	main{
-		padding: 10px 30vw 10px 10vw;   /* N E S W */
-	}
-	.box_grey{
-		background-color: rgba(40,40,40,255);
 		padding: 10px;
+	}
+
+	/* ============================================ */
+
+	.box{
 		border-radius: 15px;
 	}
 
+	.dark_grey{
+		background-color: rgba(50,50,50,255);
+		padding: 40px;
+	}
+	.mid_grey{
+		background-color: rgba(50,50,50,255);
+		padding: 20px;
+	}
+	.padding{
+		background-color: rgba(40,40,40,255);
+		padding: 20px;
+		height: 100px;
+	}
+
+	/* ============================================ */
 
 	h1, p{
 		margin: 0 0 25px 0;
 	}
+	p{
+		margin-left: 20px;
+	}
 	.row{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 	}
 	.column{
 		display: flex;
@@ -53,14 +72,32 @@
 		margin: 50px 0;
 	}
 	/* ============================================ */
+}
+
+/*PC stylesheet______________________________________*/
+@media only screen and (min-width: 675px){
+	.row{
+		display: flex;
+		flex-direction: row;
+	}
 	.details{
 		height: 250px;
 		padding: 0 0 0 80px;
 		justify-content: center; /* vertically center */
 	}
 }
-
 /*PC stylesheet______________________________________*/
 @media only screen and (min-width: 1000px){
-
+	/* main{
+		align-items: center; /
+	} 
+	*/
+	
+	.row{
+		display: flex;
+		flex-direction: row;
+	}
+	main{
+		padding: 0 20vw;
+	}
 }
