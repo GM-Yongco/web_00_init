@@ -11,6 +11,8 @@
 	body{
 		background-color: rgba(40,40,40,255);
 		background-image: url('../REFERENCES/marble.jpeg');
+		background-size: cover;
+		background-position: center;
 	}
 	header{
 		padding: 10px 10VW 10px 10vw;   /* N E S W */
